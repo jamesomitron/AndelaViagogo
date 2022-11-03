@@ -1,0 +1,15 @@
+/Users/james.omitiran/Apps/Viagogo/bin/Debug/net6.0/Viagogo
+/Users/james.omitiran/Apps/Viagogo/bin/Debug/net6.0/Viagogo.deps.json
+/Users/james.omitiran/Apps/Viagogo/bin/Debug/net6.0/Viagogo.runtimeconfig.json
+/Users/james.omitiran/Apps/Viagogo/bin/Debug/net6.0/Viagogo.dll
+/Users/james.omitiran/Apps/Viagogo/bin/Debug/net6.0/Viagogo.pdb
+/Users/james.omitiran/Apps/Viagogo/obj/Debug/net6.0/Viagogo.csproj.AssemblyReference.cache
+/Users/james.omitiran/Apps/Viagogo/obj/Debug/net6.0/Viagogo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/james.omitiran/Apps/Viagogo/obj/Debug/net6.0/Viagogo.AssemblyInfoInputs.cache
+/Users/james.omitiran/Apps/Viagogo/obj/Debug/net6.0/Viagogo.AssemblyInfo.cs
+/Users/james.omitiran/Apps/Viagogo/obj/Debug/net6.0/Viagogo.csproj.CoreCompileInputs.cache
+/Users/james.omitiran/Apps/Viagogo/obj/Debug/net6.0/Viagogo.dll
+/Users/james.omitiran/Apps/Viagogo/obj/Debug/net6.0/refint/Viagogo.dll
+/Users/james.omitiran/Apps/Viagogo/obj/Debug/net6.0/Viagogo.pdb
+/Users/james.omitiran/Apps/Viagogo/obj/Debug/net6.0/Viagogo.genruntimeconfig.cache
+/Users/james.omitiran/Apps/Viagogo/obj/Debug/net6.0/ref/Viagogo.dll
