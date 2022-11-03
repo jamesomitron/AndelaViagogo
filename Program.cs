@@ -8,6 +8,7 @@
         {
             public string Name{ get; set; }
             public string City{ get; set; }
+            public decimal Price{ get; set; } = 0;
         }
         public class Customer
         {
@@ -50,8 +51,20 @@
                 }
             }
 
-            private static void SendInCityEvents(List<Event> events, Customer customer ){
+            private static void SendInCityEvents(List<Event> events, Customer customer, SortOptions sortOptions = SortOptions.Event){
                 var eventsCustomerCity = events.Where(c => c.City == customer.City);
+
+                if (sortOptions == SortOptions.Event){
+                    eventsCustomerCity.OrderBy(c => c.Name);
+                }
+
+                if (sortOptions == SortOptions.City){
+                    eventsCustomerCity.OrderBy(c => c.City);
+                }
+
+                if (sortOptions == SortOptions.Price){
+                    eventsCustomerCity.OrderBy(c => c.Price);
+                }
 
                 Console.WriteLine("Events In Your City");
                 foreach(var item in eventsCustomerCity)
@@ -65,7 +78,7 @@
                 */
             }
 
-            private static void SendNearCityEvents(List<Event> events, Customer customer ){
+            private static void SendNearCityEvents(List<Event> events, Customer customer, SortOptions sortOptions = SortOptions.Event){
                 //2. TASK
                 //The assumption in this solution is that if GetDistance returns an integer less than 401, then it is close
                 try{
@@ -90,7 +103,9 @@
             }
 
             private enum SortOptions{
-
+                Event = 0,
+                City = 1,
+                Price = 2
             }
 
             static void AddToEmail(Customer c, Event e, int? price = null)
